@@ -1,0 +1,7 @@
+node_modules/
+*.zip
+references/
+.claude/skills/
+package-lock.json
+theme/locales/
+theme/config/settings_data.json

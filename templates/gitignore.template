@@ -1,0 +1,7 @@
+node_modules/
+.shopify/
+.env
+*.log
+.DS_Store
+.claude/settings.local.json
+graphify-out/cache/

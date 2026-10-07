@@ -1,0 +1,23 @@
+{
+  "name": "{{PREFIX}}-theme",
+  "version": "1.0.0",
+  "description": "{{BRAND}} storefront — custom Shopify theme based on {{BASE_THEME}} v{{BASE_VERSION}}",
+  "scripts": {
+    "shopify": "shopify",
+    "dev": "shopify theme dev --store={{STORE}}.myshopify.com --path theme",
+    "pull": "shopify theme pull --store={{STORE}}.myshopify.com --path theme",
+    "push": "shopify theme push --store={{STORE}}.myshopify.com --path theme",
+    "list": "shopify theme list --store={{STORE}}.myshopify.com",
+    "lint": "shopify theme check --path theme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{REPO}}.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@shopify/cli": "^3.93.2",
+    "@shopify/theme": "^3.58.2"
+  }
+}
